@@ -3,4 +3,18 @@ $theme-colors: (
   "theme-black": #16161e,
   "theme-yellow": #fdc029,
 );
+.max-height {
+  height: 100vh;
+}
+
+.head-line {
+  font-weight: bold;
+}
+
+.def-paragraph {
+  font-weight: 400;
+  font-size: 1.2rem;
+  color: white;
+}
+
 @import "../../node_modules/bootstrap/scss/bootstrap";

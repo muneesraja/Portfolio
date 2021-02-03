@@ -1,14 +1,17 @@
 import React from "react";
 import Skill from "./Skill";
-
-const index = (props) => {
+import "./skills.scss";
+const index = ({ skills }) => {
   return (
     <div className="bg-theme-gray">
-      <div className="container max-height">
-        <h3 className="text-theme-yellow head-line text-center pt-5">Skills</h3>
-
-        <div className="skills">
-          <Skill skills={props.skills} />
+      <div className="container">
+        <div className="max-height d-flex flex-column justify-content-center">
+          <h3 className="text-center mb-5 text-theme-yellow head-line">
+            Skills
+          </h3>
+          <div className="skill-desc">
+            <Skill skills={skills} />
+          </div>
         </div>
       </div>
     </div>

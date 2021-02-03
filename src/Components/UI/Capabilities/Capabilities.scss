@@ -1,0 +1,21 @@
+.cap-height {
+  @media screen and (max-width: 780px) {
+    height: 90rem;
+  }
+}
+
+.cap-head {
+  @media screen and (max-width: 780px) {
+    margin-top: 5rem;
+  }
+}
+
+.cards {
+  border-radius: 25px;
+  height: 23rem;
+  margin: auto;
+  width: 300px;
+  @media screen and (max-width: 780px) {
+    margin-top: 1rem;
+  }
+}
